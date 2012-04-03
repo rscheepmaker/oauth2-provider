@@ -26,7 +26,7 @@ module OAuth2
     Digest::SHA1.hexdigest(token)
   end
   
-  ACCESS_TOKEN           = 'access_token'
+  ACCESS_TOKEN           = 'oauth_token'
   ASSERTION              = 'assertion'
   ASSERTION_TYPE         = 'assertion_type'
   AUTHORIZATION_CODE     = 'authorization_code'
